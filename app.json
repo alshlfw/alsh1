@@ -1,0 +1,40 @@
+{
+    "name": "alshton",
+    "description": " هلا بيك بسورس علش !",
+    "logo" : "https://telegra.ph/file/09a6b0d947cfb8423a2d1.jpg",
+    "stack": "container",
+    "repository": "https://github.com/lucithon/B_Y_5/",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/lucithon/B_Y_5",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن بوتك",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر بوتك بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
