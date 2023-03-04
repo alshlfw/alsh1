@@ -33,7 +33,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5307018300,
+    1203669916,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -137,12 +137,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 1041483862
+ownerhson_id = 1203669916
 @fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @HLLAM ━━━━━━●')
+        order = await event.reply('𓏺 >𝗶𝗹𝗼𝘃𝗲 𝘆𝗼𝘂 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 - @L_F_W .')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
